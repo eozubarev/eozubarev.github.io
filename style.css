@@ -1,0 +1,103 @@
+
+    body {
+        margin: 0;
+        font-family: 'Zilla Slab', serif;
+        font-size: 48px;
+        color: white;
+      }
+         
+      /* Container */
+      .container {
+        
+         width: 100%;
+         max-width: 1200px;
+         margin: 0 auto; 
+      }
+
+      .container__logo {
+         display: flex;
+         width: 100%;
+         max-width: 1200px;
+         margin: 0 auto; 
+         
+      }
+      
+      /* Header */
+      .header{
+           
+          background-color: black;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 144px;
+          line-height: 130px;
+       }
+      /* Logo */
+      .logo__letter {
+         font-size: 25px;
+       }
+
+      .logo__letter--V {
+         color: red;
+         font-size: 100px;
+       }
+
+      .logo__letter--EO {
+         font-size: 25px;
+         margin-left: 0px;
+       }
+
+       .header__menu {
+           font-size: 16px;
+           align-items: center;
+           margin-left: 700px;
+           
+       }
+
+       .header__menu:hover {
+           color: red;
+       }
+      /* Text Block */
+  .text__main {
+         font-family: 'Zilla Slab Highlight', cursive;
+         color: black;
+         width: 805px;
+         font-size: 45px;
+         margin: 0 auto;
+         padding-top:  135px;
+       }
+
+   .text__aboutme {
+          font-family: 'Zilla Slab Highlight', cursive; 
+         color: black;
+         font-size: 40px;
+         width: 805px;
+         margin-left: 300px;
+       }
+      /* Links Block */
+   .link {
+         color: red;
+        }
+
+    .link:hover {
+        color: blue;
+    }
+
+    .contact__links ul {
+         padding: 0;
+         margin-left: 570px;
+        }
+
+    .contact__links ul li {
+          display: inline-block;
+         margin-right: 25px;
+         font-size: 24px
+    
+        }  
+
+     .link__text {
+      text-decoration: none; 
+        }
+
+     .link__text:hover {
+         color: red;
+     }
