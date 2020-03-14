@@ -1,15 +1,18 @@
+
+
+
 *, *:after, *:before {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     transition: .2s ease-in-out; /* добавим плавность переходов для всех элементов страницы*/
     }
-
     body {
         margin: 0;
         font-family: 'Zilla Slab', serif;
         font-size: 48px;
         color: white;
+        min-width: 1170px;
       }
          
       /* Container */
@@ -18,6 +21,8 @@
          width: 100%;
          max-width: 1200px;
          margin: 0 auto; 
+         padding: 0px 25px;
+         
       }
 
       .container__logo {
@@ -25,21 +30,25 @@
          width: 100%;
          max-width: 1200px;
          margin: 0 auto; 
+         padding: 0px 25px;
          
       }
       
       /* Header */
       .header{
-           
+          
           background-color: black;
           text-transform: uppercase;
           font-weight: bold;
           font-size: 144px;
+          max-width: 100%;
           line-height: 130px;
+          
        }
       /* Logo */
       .logo__letter {
          font-size: 25px;
+         max-width: 100%;
        }
 
       .logo__letter--V {
@@ -70,6 +79,7 @@
          font-size: 45px;
          margin: 0 auto;
          padding-top:  135px;
+         
        }
 
    .text__aboutme {
@@ -78,6 +88,7 @@
          font-size: 40px;
          width: 805px;
          margin-left: 300px;
+         
        }
       /* Links Block */
    .link {
