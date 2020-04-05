@@ -1,0 +1,30 @@
+/* Fonts 
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+lg: 1200px
+md: 992px
+sm: 767px
+xs: 576px
+
+*/
+* {
+  box-sizing: border-box; /* Элемент имеет 100px */
+}
+
+body {
+  font-family: "Roboto", sans-serif; /* Т.к его используется больше в тексте */
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.375;
+  color: #1f1f1f;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
