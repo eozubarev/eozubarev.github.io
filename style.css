@@ -57,9 +57,22 @@
          margin-left: 0px;
        }
 
+      .pf {
+         text-decoration: none;
+         cursor: pointer;
+         color: white;
+         font-size: 25px;
+         margin-left: 750px;
+       }
+
+       .pf:hover {
+         color: red;
+       }
+
        .header__menu:hover {
            color: red;
        }
+
       /* Text Block */
   .text__main {
          font-family: 'Zilla Slab Highlight', cursive;
